@@ -31,9 +31,9 @@ def searchRank(searchInput, targetSite):
     return 0
 
 
-class TestJSONSalesDataMethods(unittest.TestCase):
+class TestSearchRankMethods(unittest.TestCase):
 
-    def test_jsonSalesData(self):
+    def testSearchRank(self):
         searchInput = "instawork"
         targetSite = 'https://www.instawork.com/'
         self.assertEqual(searchRank(searchInput, targetSite), [1, 1])
