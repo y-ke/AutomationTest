@@ -1,6 +1,9 @@
 from selenium import webdriver
 import unittest
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 def searchRank(searchInput, targetSite):
     searchKeywords = searchInput.replace(' ', '+')
